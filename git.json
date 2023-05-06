@@ -1,0 +1,64 @@
+{
+    "vidio=2": {
+        "Information About Git": "git",
+        "PresentWorkingDirectry": "pwd",
+        "changedirectry": "cd",
+        "setUsername": "git config --global user.name “Username” ",
+        "setEmailId": "git config --global user.email “UserEmail@useremail.com” ",
+        "getUserName": "git config --global user.name",
+        "getEmailId": "git config --global user.email",
+        "configuration and verify email and username": "git config --list",
+        "change the editor": " git config --global core.editor vim/git config --global core.editor emacs"
+    },
+    "vidio=4":{
+        "check repositry ":"git status",
+        "create git repo":"git init",
+        "add files in repo":"git add --a /git add 'specific.file' ",
+        "savefils/screenshort":"git commit -m 'message'",
+        "see all commits on repo":"git log",
+        "add specific fill":"git add 'file name'",
+        "remove repo":"rm -rf .git",
+        "downlod any repo":"git clone 'https://github.com/tensorflow/tensorflow.git'",
+        "list containt of folder":"ls",
+        "quit any prosecc":"q + enter"
+    },
+    "vidio=7":{
+        "create blank file":"touch error.log",
+        "create gitignor file":"touch .gitignor",
+        "ignor all .log file":"*.log ,dir/ , /dir/ "
+    },
+    "vidio=8":{
+        "check diffrence between staged file and commited files":"git diff",
+        "check staged diffrence":"git diff --staged",
+        "all treced files commited":"git commit -a -m 'message'"
+    },
+    "vidio=10":{
+        "delete file":"git rm 'filename'",
+        "Rename file name":"git mv OldFileNameWithExtention NewFileNameWithExtention",
+        "convert treact file into untreact file":"git rm --cached filename"
+    },
+    "vidio=11":{
+        "changis in file":"git log -p",
+        "specific number of commits":"git log -p -5",
+        "provide all info about commit add contain remove containt etc.":"git log --stat",
+        "obtain all commit in oneline":"git log --pretty=oneline",
+        "this is give commit in short":"git log --pretty=short",
+        "this is give full commit":"git log --pretty=full",
+        "this is give last 2 days commits":"git log --since=2.days/months/years",
+        "this is give a commit in format":"git log --pretty=format:'%h -- %an'",
+        "this is provide opportunity to change commit":"git commit --amend"
+
+    },
+    "vidio=12":{
+        "staged file into unstaged":"git restore --staged filename.extention",
+        "comment":[
+            "most imp command very very important",
+            {
+
+            "check out last update":"git checkout -- filename.extention",
+            "for all files check out last update":"git chekcout -f"
+        }
+        ]
+    }
+
+}
